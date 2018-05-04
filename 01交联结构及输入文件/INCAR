@@ -1,0 +1,23 @@
+SYSTEM =  gra-relax
+ISTART =     0       
+ICHARG =     2
+ENCUT  =     400.0 eV
+#PREC = Accurate
+ALGO  = Fast
+NELM = 60
+NELMIN = 3                 the minimum number of electronic SC steps
+NBLOCK = 1                 Steps for inner block
+ISYM   = 0                 symmetry (2-PAW on, 1-US-PP's on, 0-off)
+GGA    = PE                PBE
+VOSKOWN = 1
+#ISPIN = 2
+#LREAL  = Auto 
+NSW =  500
+IBRION = 2
+ISIF = 23                  优化类型
+EDIFF  = 1E-4
+EDIFFG = -1E-2
+ISMEAR =     0;   SIGMA  =   0.1
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+LREAL  = Auto 
